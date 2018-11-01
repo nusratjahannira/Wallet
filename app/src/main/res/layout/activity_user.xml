@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system.wallet.UserActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Income" />
+
+        <Button
+            android:id="@+id/expence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/income"
+            android:layout_alignStart="@+id/income"
+            android:layout_below="@+id/income"
+            android:layout_marginTop="31dp"
+            android:text="Expence" />
+
+        <Button
+            android:id="@+id/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/expence"
+            android:layout_alignStart="@+id/expence"
+            android:layout_below="@+id/expence"
+            android:layout_marginTop="43dp"
+            android:text="Notes" />
+
+        <Button
+            android:id="@+id/creditcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Credit Card Info" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

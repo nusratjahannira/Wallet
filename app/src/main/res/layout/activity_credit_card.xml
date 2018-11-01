@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system.wallet.CreditCardActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/Account_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Account Holder Name" />
+
+        <EditText
+            android:id="@+id/Accoun_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Account_name"
+            android:layout_alignRight="@+id/Account_name"
+            android:layout_below="@+id/Account_name"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:hint="Account Number"/>
+
+        <Button
+            android:id="@+id/accountsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Accoun_num"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="37dp"
+            android:text="Button" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
